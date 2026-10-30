@@ -1,0 +1,373 @@
+{
+  "beyblades": [
+    {
+      "id": "inferno_fang",
+      "name": "Inferno Fang",
+      "element": "Fire",
+      "description": "Aggressive claw-bladed attacker. Overwhelming power.",
+      "colors": {
+        "primary": "#E32636",
+        "secondary": "#FF6A00",
+        "accent": "#FFCC33",
+        "dark": "#242424"
+      },
+      "stats": {
+        "max_hp": 100,
+        "max_stamina": 100,
+        "attack": 115,
+        "defence": 85,
+        "speed": 105,
+        "mass": 1.0,
+        "accel_mult": 1.15,
+        "turn": 1.0,
+        "friction": 1.0,
+        "spin_rate": 20.0,
+        "radius": 24.0,
+        "dash_strength": 400.0,
+        "collision_resistance": 1.0,
+        "restitution": 0.7
+      },
+      "ability": {
+        "type": "infernal_breaker",
+        "name": "Infernal Breaker",
+        "cooldown": 14.0,
+        "duration": 8.0,
+        "description": "8s charged state: more attack and speed, stamina costs halved.",
+        "attack_mult": 1.3,
+        "speed_mult": 1.25,
+        "cost_mult": 0.5,
+        "drain_mult": 0.5
+      },
+      "launch": {
+        "speed": 1.1,
+        "stability": 0.85,
+        "spin_boost": 1.0,
+        "charge_rate": 1.0
+      }
+    },
+    {
+      "id": "tidal_surge",
+      "name": "Tidal Surge",
+      "element": "Water",
+      "description": "Fluid, precise and adaptable with superb directional control.",
+      "colors": {
+        "primary": "#087EBC",
+        "secondary": "#082567",
+        "accent": "#49E3D2",
+        "dark": "#C7D3E0"
+      },
+      "stats": {
+        "max_hp": 110,
+        "max_stamina": 110,
+        "attack": 95,
+        "defence": 105,
+        "speed": 95,
+        "mass": 1.05,
+        "accel_mult": 1.05,
+        "turn": 1.5,
+        "friction": 0.9,
+        "spin_rate": 17.0,
+        "radius": 24.0,
+        "dash_strength": 360.0,
+        "collision_resistance": 1.05,
+        "restitution": 0.65
+      },
+      "ability": {
+        "type": "abyssal_vortex",
+        "name": "Abyssal Vortex",
+        "cooldown": 18.0,
+        "duration": 8.0,
+        "description": "8s vortex that pulls, slows and drains opponents (25% HP and stamina per second).",
+        "radius": 105.0,
+        "hp_rate": 0.25,
+        "stamina_rate": 0.25,
+        "pull": 260.0,
+        "slow": 0.55,
+        "placement": 90.0
+      },
+      "launch": {
+        "speed": 0.95,
+        "stability": 1.25,
+        "spin_boost": 1.0,
+        "charge_rate": 1.0
+      }
+    },
+    {
+      "id": "verdant_reaper",
+      "name": "Verdant Reaper",
+      "element": "Grass",
+      "description": "Relentless pursuer that heals by drawing blood with thorns.",
+      "colors": {
+        "primary": "#00A86B",
+        "secondary": "#14532D",
+        "accent": "#C5E86C",
+        "dark": "#102A20"
+      },
+      "stats": {
+        "max_hp": 105,
+        "max_stamina": 105,
+        "attack": 100,
+        "defence": 95,
+        "speed": 100,
+        "mass": 1.0,
+        "accel_mult": 1.05,
+        "turn": 1.1,
+        "friction": 1.0,
+        "spin_rate": 19.0,
+        "radius": 24.0,
+        "dash_strength": 370.0,
+        "collision_resistance": 1.0,
+        "restitution": 0.65
+      },
+      "ability": {
+        "type": "thornstorm",
+        "name": "Thornstorm",
+        "cooldown": 12.0,
+        "duration": 4.0,
+        "description": "Fan of ricocheting thorns. Longer flight means more damage, slows, and heals you.",
+        "thorn_count": 5,
+        "spread_deg": 40.0,
+        "speed": 330.0,
+        "base_damage": 24.0,
+        "max_bonus": 1.0,
+        "ref_distance": 250.0,
+        "max_damage": 30.0,
+        "slow": 0.7,
+        "slow_duration": 3.0,
+        "lifesteal": 0.5,
+        "thorn_radius": 9.0
+      },
+      "launch": {
+        "speed": 1.0,
+        "stability": 1.0,
+        "spin_boost": 1.0,
+        "charge_rate": 1.0
+      }
+    },
+    {
+      "id": "titan_breaker",
+      "name": "Titan Breaker",
+      "element": "Stone",
+      "description": "Heavy, armoured and nearly unstoppable once it has momentum.",
+      "colors": {
+        "primary": "#707780",
+        "secondary": "#252A34",
+        "accent": "#CD7F32",
+        "dark": "#E89B36"
+      },
+      "stats": {
+        "max_hp": 125,
+        "max_stamina": 100,
+        "attack": 105,
+        "defence": 125,
+        "speed": 75,
+        "mass": 1.35,
+        "accel_mult": 0.85,
+        "turn": 0.75,
+        "friction": 1.1,
+        "spin_rate": 15.0,
+        "radius": 28.0,
+        "dash_strength": 330.0,
+        "collision_resistance": 1.3,
+        "restitution": 0.55
+      },
+      "ability": {
+        "type": "earthshatter",
+        "name": "Earthshatter",
+        "cooldown": 16.0,
+        "duration": 10.0,
+        "description": "Raises four stone walls for 10s. Opponents hit lose half their Defence for the round.",
+        "wall_length": 170.0,
+        "wall_thickness": 28.0,
+        "offset": 50.0,
+        "damage": 14.0,
+        "defence_mult": 0.5,
+        "grow_time": 0.25
+      },
+      "launch": {
+        "speed": 0.92,
+        "stability": 1.2,
+        "spin_boost": 1.0,
+        "charge_rate": 0.95
+      }
+    },
+    {
+      "id": "thunder_blitz",
+      "name": "Thunder Blitz",
+      "element": "Lightning",
+      "description": "Explosive speed with sharp turns and a stamina-stealing bolt.",
+      "colors": {
+        "primary": "#FFE600",
+        "secondary": "#D4A900",
+        "accent": "#454B54",
+        "dark": "#151515"
+      },
+      "stats": {
+        "max_hp": 95,
+        "max_stamina": 95,
+        "attack": 110,
+        "defence": 80,
+        "speed": 120,
+        "mass": 0.9,
+        "accel_mult": 1.25,
+        "turn": 1.5,
+        "friction": 1.15,
+        "spin_rate": 22.0,
+        "radius": 22.0,
+        "dash_strength": 400.0,
+        "collision_resistance": 0.9,
+        "restitution": 0.7
+      },
+      "ability": {
+        "type": "thunder",
+        "name": "Thunder",
+        "cooldown": 18.0,
+        "duration": 5.0,
+        "description": "Locks onto the nearest opponent, steals 75% of their stamina, then doubles speed for 5s.",
+        "strike_delay": 0.35,
+        "steal": 0.75,
+        "speed_mult": 2.0,
+        "damage": 6.0
+      },
+      "launch": {
+        "speed": 1.05,
+        "stability": 0.95,
+        "spin_boost": 1.0,
+        "charge_rate": 1.25
+      }
+    },
+    {
+      "id": "gale_phantom",
+      "name": "Gale Phantom",
+      "element": "Wind",
+      "description": "Agile and evasive. Blasts rivals away while repositioning.",
+      "colors": {
+        "primary": "#87CEEB",
+        "secondary": "#697586",
+        "accent": "#C5F7FF",
+        "dark": "#E5E7EB"
+      },
+      "stats": {
+        "max_hp": 100,
+        "max_stamina": 100,
+        "attack": 90,
+        "defence": 90,
+        "speed": 125,
+        "mass": 0.85,
+        "accel_mult": 1.25,
+        "turn": 1.5,
+        "friction": 0.85,
+        "spin_rate": 21.0,
+        "radius": 22.0,
+        "dash_strength": 420.0,
+        "collision_resistance": 0.8,
+        "restitution": 0.72
+      },
+      "ability": {
+        "type": "phantom_cyclone",
+        "name": "Phantom Cyclone",
+        "cooldown": 12.0,
+        "duration": 0.6,
+        "description": "Gust knocks nearby opponents back while you burst to a new position.",
+        "radius": 170.0,
+        "force": 520.0,
+        "burst_speed": 560.0,
+        "burst_duration": 0.55
+      },
+      "launch": {
+        "speed": 1.0,
+        "stability": 1.0,
+        "spin_boost": 1.0,
+        "charge_rate": 1.15
+      }
+    },
+    {
+      "id": "frostbite_requiem",
+      "name": "Frostbite Requiem",
+      "element": "Ice",
+      "description": "Cold, controlling and precise. Freezes the whole stadium.",
+      "colors": {
+        "primary": "#A5F2F3",
+        "secondary": "#4B9CD3",
+        "accent": "#E8F1F5",
+        "dark": "#142D4E"
+      },
+      "stats": {
+        "max_hp": 100,
+        "max_stamina": 105,
+        "attack": 100,
+        "defence": 100,
+        "speed": 95,
+        "mass": 1.0,
+        "accel_mult": 1.0,
+        "turn": 1.2,
+        "friction": 1.0,
+        "spin_rate": 18.0,
+        "radius": 24.0,
+        "dash_strength": 370.0,
+        "collision_resistance": 1.0,
+        "restitution": 0.65
+      },
+      "ability": {
+        "type": "absolute_zero",
+        "name": "Absolute Zero",
+        "cooldown": 18.0,
+        "duration": 6.0,
+        "description": "Freezes every opponent for 6s. Frozen foes cannot act and burn 20% more stamina.",
+        "freeze_duration": 6.0,
+        "drain_mult": 1.2
+      },
+      "launch": {
+        "speed": 1.0,
+        "stability": 1.1,
+        "spin_boost": 1.0,
+        "charge_rate": 1.0
+      }
+    },
+    {
+      "id": "venom_viper",
+      "name": "Venom Viper",
+      "element": "Poison",
+      "description": "Deceptive and dangerous. Poisons with a touch while untouchable.",
+      "colors": {
+        "primary": "#8A2BE2",
+        "secondary": "#7CFC00",
+        "accent": "#71717A",
+        "dark": "#17131F"
+      },
+      "stats": {
+        "max_hp": 95,
+        "max_stamina": 100,
+        "attack": 105,
+        "defence": 85,
+        "speed": 105,
+        "mass": 0.95,
+        "accel_mult": 1.1,
+        "turn": 1.2,
+        "friction": 1.0,
+        "spin_rate": 19.0,
+        "radius": 23.0,
+        "dash_strength": 390.0,
+        "collision_resistance": 0.95,
+        "restitution": 0.65
+      },
+      "ability": {
+        "type": "venomous_touch",
+        "name": "Venomous Touch",
+        "cooldown": 18.0,
+        "duration": 8.0,
+        "description": "8s untouchable state with 0 Attack. Touching opponents poisons them for 5s.",
+        "poison_duration": 5.0,
+        "poison_rate": 0.03,
+        "poison_drain_mult": 1.15,
+        "poison_slow": 0.8
+      },
+      "launch": {
+        "speed": 1.0,
+        "stability": 1.0,
+        "spin_boost": 1.0,
+        "charge_rate": 1.0
+      }
+    }
+  ]
+}
