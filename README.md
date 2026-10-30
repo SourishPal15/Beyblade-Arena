@@ -62,9 +62,9 @@ The goal was to combine these concepts into a complete, interactive game while i
 
 Watch the gameplay demonstration of Beyblade Arena, showcasing the launcher sequence, combat mechanics, special abilities, AI opponents, and overall gameplay.
 
-**Gameplay Video:** [Watch Here](YOUR_VIDEO_LINK_HERE)
+**Gameplay Video:** 
 
-<!-- Replace YOUR_VIDEO_LINK_HERE with your YouTube or other video link. -->
+https://github.com/user-attachments/assets/a14fc02f-bb2c-47c3-b9e0-d814490761c5
 
 ## Technologies Used
 
